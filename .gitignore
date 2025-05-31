@@ -1,42 +1,110 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
-venv/
-.venv/
-ENV/
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a PyInstaller script; this is targeted
+#  at preserving the PyInstaller script itself.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PEP 582; __pypackages__
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath files
+*.sage.py
+
+# Environments
+.env
+.venv
 env/
+venv/
+ENV/
 env.bak/
 venv.bak/
 
-# Streamlit secrets
+# Streamlit configuration
 .streamlit/secrets.toml
 
-# IDE and editor files
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS generated files
+# macOS specific
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+
+# Windows specific
 Thumbs.db
-
-# Generated files (예: 사용자가 업로드하거나 앱이 생성하는 파일)
-# 만약 생성된 CSV나 PDF를 저장소에 올리고 싶지 않다면 추가
-# *.csv
-# *.pdf
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*

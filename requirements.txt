@@ -1,6 +1,8 @@
 streamlit
 google-generativeai
-pypdf2
+PyPDF2
 youtube-transcript-api
 pandas
-openpyxl
+openpyxl # pandas to_excel 사용 시 필요
+requests
+beautifulsoup4
