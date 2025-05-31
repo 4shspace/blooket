@@ -108,3 +108,4 @@ venv.bak/
 
 # Windows specific
 Thumbs.db
+.streamlit/
